@@ -1,3 +1,11 @@
 Compat issues with assembly System.Utf8String.Experimental:
+MembersMustExist : Member 'System.Utf8Extensions.AsSpan(System.Utf8String)' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'System.Utf8Extensions.AsSpan(System.Utf8String, System.Int32)' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'System.Utf8Extensions.AsSpan(System.Utf8String, System.Int32, System.Int32)' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'System.Utf8Extensions.ToUtf8String(System.Text.Rune)' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'System.Utf8String.AreEquivalent(System.ReadOnlySpan<System.Byte>, System.ReadOnlySpan<System.Char>)' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'System.Utf8String.AreEquivalent(System.Text.Utf8Span, System.ReadOnlySpan<System.Char>)' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'System.Utf8String.AreEquivalent(System.Utf8String, System.String)' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'System.Utf8String.op_Implicit(System.Utf8String)' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'System.Utf8String.Substring(System.Index)' does not exist in the reference but it does exist in the implementation.
-Total Issues: 1
+Total Issues: 9

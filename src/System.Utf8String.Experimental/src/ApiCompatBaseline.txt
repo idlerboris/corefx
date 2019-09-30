@@ -1,0 +1,5 @@
+Compat issues with assembly System.Utf8String.Experimental:
+MembersMustExist : Member 'System.Utf8Extensions.AsSpan(System.Utf8String)' does not exist in the implementation but it does exist in the contract.
+MembersMustExist : Member 'System.Utf8Extensions.AsSpan(System.Utf8String, System.Int32)' does not exist in the implementation but it does exist in the contract.
+MembersMustExist : Member 'System.Utf8Extensions.AsSpan(System.Utf8String, System.Int32, System.Int32)' does not exist in the implementation but it does exist in the contract.
+Total Issues: 3
