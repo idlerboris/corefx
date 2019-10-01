@@ -48,6 +48,7 @@ namespace System.Text.Tests
         }
 
         [Theory]
+        [PlatformSpecific(TestPlatforms.Windows)]
         [InlineData(null, null, StringComparison.OrdinalIgnoreCase, null, true)]
         [InlineData("encyclopaedia", "encyclopædia", StringComparison.OrdinalIgnoreCase, null, false)]
         [InlineData("encyclopaedia", "encyclopædia", StringComparison.InvariantCulture, null, true)]
